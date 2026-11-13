@@ -39,7 +39,7 @@ SOURCES: list[dict[str, Any]] = [
         "source_id": "blld-2019",
         "title": "Bộ luật Lao động số 45/2019/QH14",
         "source_path": "starter/data/bo-luat-lao-dong-2019.pdf",
-        "source_url": "CẦN BỔ SUNG: link nơi đã tải file PDF Công báo",
+        "source_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-45-2019-qh14-30232/29070.htm",
         "publication": "Công báo số 993 + 994, ngày 26-12-2019, trang 3–95",
         "license_or_permission": (
             "Văn bản quy phạm pháp luật – không thuộc đối tượng bảo hộ quyền tác giả "

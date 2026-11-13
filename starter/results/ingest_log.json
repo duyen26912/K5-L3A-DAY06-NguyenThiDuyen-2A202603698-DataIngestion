@@ -1,0 +1,672 @@
+{
+  "extractor": "pypdf extract_text(extraction_mode='layout')",
+  "sources": [
+    {
+      "source_id": "blld-2019",
+      "empty_pages": [
+        94
+      ],
+      "pages_without_header": [],
+      "pages": [
+        {
+          "page": 1,
+          "cong_bao_page": 3,
+          "raw_chars": 1779,
+          "clean_chars": 1384,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                           3"
+        },
+        {
+          "page": 2,
+          "cong_bao_page": 4,
+          "raw_chars": 2569,
+          "clean_chars": 2462,
+          "removed_header": "4                           CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 3,
+          "cong_bao_page": 5,
+          "raw_chars": 2387,
+          "clean_chars": 2245,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                           5"
+        },
+        {
+          "page": 4,
+          "cong_bao_page": 6,
+          "raw_chars": 2008,
+          "clean_chars": 1865,
+          "removed_header": "6                           CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 5,
+          "cong_bao_page": 7,
+          "raw_chars": 2198,
+          "clean_chars": 2044,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                           7"
+        },
+        {
+          "page": 6,
+          "cong_bao_page": 8,
+          "raw_chars": 1890,
+          "clean_chars": 1709,
+          "removed_header": "8                           CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 7,
+          "cong_bao_page": 9,
+          "raw_chars": 2133,
+          "clean_chars": 1837,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                           9"
+        },
+        {
+          "page": 8,
+          "cong_bao_page": 10,
+          "raw_chars": 2126,
+          "clean_chars": 2003,
+          "removed_header": "10                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 9,
+          "cong_bao_page": 11,
+          "raw_chars": 2282,
+          "clean_chars": 2121,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         11"
+        },
+        {
+          "page": 10,
+          "cong_bao_page": 12,
+          "raw_chars": 2198,
+          "clean_chars": 2068,
+          "removed_header": "12                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 11,
+          "cong_bao_page": 13,
+          "raw_chars": 2059,
+          "clean_chars": 1898,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         13"
+        },
+        {
+          "page": 12,
+          "cong_bao_page": 14,
+          "raw_chars": 2125,
+          "clean_chars": 1937,
+          "removed_header": "14                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 13,
+          "cong_bao_page": 15,
+          "raw_chars": 2493,
+          "clean_chars": 2336,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         15"
+        },
+        {
+          "page": 14,
+          "cong_bao_page": 16,
+          "raw_chars": 2144,
+          "clean_chars": 1951,
+          "removed_header": "16                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 15,
+          "cong_bao_page": 17,
+          "raw_chars": 2153,
+          "clean_chars": 2000,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         17"
+        },
+        {
+          "page": 16,
+          "cong_bao_page": 18,
+          "raw_chars": 2050,
+          "clean_chars": 1928,
+          "removed_header": "18                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 17,
+          "cong_bao_page": 19,
+          "raw_chars": 2093,
+          "clean_chars": 1948,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         19"
+        },
+        {
+          "page": 18,
+          "cong_bao_page": 20,
+          "raw_chars": 2120,
+          "clean_chars": 1994,
+          "removed_header": "20                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 19,
+          "cong_bao_page": 21,
+          "raw_chars": 2330,
+          "clean_chars": 2175,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         21"
+        },
+        {
+          "page": 20,
+          "cong_bao_page": 22,
+          "raw_chars": 2373,
+          "clean_chars": 2251,
+          "removed_header": "22                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 21,
+          "cong_bao_page": 23,
+          "raw_chars": 2489,
+          "clean_chars": 2344,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         23"
+        },
+        {
+          "page": 22,
+          "cong_bao_page": 24,
+          "raw_chars": 2127,
+          "clean_chars": 1927,
+          "removed_header": "24                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 23,
+          "cong_bao_page": 25,
+          "raw_chars": 2161,
+          "clean_chars": 1922,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         25"
+        },
+        {
+          "page": 24,
+          "cong_bao_page": 26,
+          "raw_chars": 2089,
+          "clean_chars": 1955,
+          "removed_header": "26                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 25,
+          "cong_bao_page": 27,
+          "raw_chars": 2260,
+          "clean_chars": 2095,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         27"
+        },
+        {
+          "page": 26,
+          "cong_bao_page": 28,
+          "raw_chars": 2196,
+          "clean_chars": 2028,
+          "removed_header": "28                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 27,
+          "cong_bao_page": 29,
+          "raw_chars": 2372,
+          "clean_chars": 2231,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         29"
+        },
+        {
+          "page": 28,
+          "cong_bao_page": 30,
+          "raw_chars": 2016,
+          "clean_chars": 1748,
+          "removed_header": "30                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 29,
+          "cong_bao_page": 31,
+          "raw_chars": 1800,
+          "clean_chars": 1557,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         31"
+        },
+        {
+          "page": 30,
+          "cong_bao_page": 32,
+          "raw_chars": 2197,
+          "clean_chars": 2067,
+          "removed_header": "32                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 31,
+          "cong_bao_page": 33,
+          "raw_chars": 2412,
+          "clean_chars": 2259,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         33"
+        },
+        {
+          "page": 32,
+          "cong_bao_page": 34,
+          "raw_chars": 2482,
+          "clean_chars": 2372,
+          "removed_header": "34                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 33,
+          "cong_bao_page": 35,
+          "raw_chars": 2313,
+          "clean_chars": 2168,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         35"
+        },
+        {
+          "page": 34,
+          "cong_bao_page": 36,
+          "raw_chars": 2127,
+          "clean_chars": 1937,
+          "removed_header": "36                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 35,
+          "cong_bao_page": 37,
+          "raw_chars": 2566,
+          "clean_chars": 2420,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         37"
+        },
+        {
+          "page": 36,
+          "cong_bao_page": 38,
+          "raw_chars": 2556,
+          "clean_chars": 2454,
+          "removed_header": "38                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 37,
+          "cong_bao_page": 39,
+          "raw_chars": 2439,
+          "clean_chars": 2298,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         39"
+        },
+        {
+          "page": 38,
+          "cong_bao_page": 40,
+          "raw_chars": 2392,
+          "clean_chars": 2278,
+          "removed_header": "40                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 39,
+          "cong_bao_page": 41,
+          "raw_chars": 2084,
+          "clean_chars": 1840,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         41"
+        },
+        {
+          "page": 40,
+          "cong_bao_page": 42,
+          "raw_chars": 2258,
+          "clean_chars": 2140,
+          "removed_header": "42                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 41,
+          "cong_bao_page": 43,
+          "raw_chars": 2330,
+          "clean_chars": 2177,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         43"
+        },
+        {
+          "page": 42,
+          "cong_bao_page": 44,
+          "raw_chars": 2170,
+          "clean_chars": 2044,
+          "removed_header": "44                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 43,
+          "cong_bao_page": 45,
+          "raw_chars": 2468,
+          "clean_chars": 2311,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         45"
+        },
+        {
+          "page": 44,
+          "cong_bao_page": 46,
+          "raw_chars": 1849,
+          "clean_chars": 1591,
+          "removed_header": "46                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 45,
+          "cong_bao_page": 47,
+          "raw_chars": 2414,
+          "clean_chars": 2257,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         47"
+        },
+        {
+          "page": 46,
+          "cong_bao_page": 48,
+          "raw_chars": 2007,
+          "clean_chars": 1788,
+          "removed_header": "48                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 47,
+          "cong_bao_page": 49,
+          "raw_chars": 2489,
+          "clean_chars": 2324,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         49"
+        },
+        {
+          "page": 48,
+          "cong_bao_page": 50,
+          "raw_chars": 2140,
+          "clean_chars": 1835,
+          "removed_header": "50                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 49,
+          "cong_bao_page": 51,
+          "raw_chars": 2031,
+          "clean_chars": 1858,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         51"
+        },
+        {
+          "page": 50,
+          "cong_bao_page": 52,
+          "raw_chars": 2073,
+          "clean_chars": 1943,
+          "removed_header": "52                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 51,
+          "cong_bao_page": 53,
+          "raw_chars": 2009,
+          "clean_chars": 1844,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         53"
+        },
+        {
+          "page": 52,
+          "cong_bao_page": 54,
+          "raw_chars": 2117,
+          "clean_chars": 1991,
+          "removed_header": "54                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 53,
+          "cong_bao_page": 55,
+          "raw_chars": 2334,
+          "clean_chars": 2116,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         55"
+        },
+        {
+          "page": 54,
+          "cong_bao_page": 56,
+          "raw_chars": 2034,
+          "clean_chars": 1846,
+          "removed_header": "56                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 55,
+          "cong_bao_page": 57,
+          "raw_chars": 2215,
+          "clean_chars": 1983,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         57"
+        },
+        {
+          "page": 56,
+          "cong_bao_page": 58,
+          "raw_chars": 2500,
+          "clean_chars": 2390,
+          "removed_header": "58                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 57,
+          "cong_bao_page": 59,
+          "raw_chars": 2602,
+          "clean_chars": 2457,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         59"
+        },
+        {
+          "page": 58,
+          "cong_bao_page": 60,
+          "raw_chars": 1971,
+          "clean_chars": 1717,
+          "removed_header": "60                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 59,
+          "cong_bao_page": 61,
+          "raw_chars": 2202,
+          "clean_chars": 2053,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         61"
+        },
+        {
+          "page": 60,
+          "cong_bao_page": 62,
+          "raw_chars": 1680,
+          "clean_chars": 1461,
+          "removed_header": "62                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 61,
+          "cong_bao_page": 63,
+          "raw_chars": 2206,
+          "clean_chars": 1965,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         63"
+        },
+        {
+          "page": 62,
+          "cong_bao_page": 64,
+          "raw_chars": 2327,
+          "clean_chars": 2209,
+          "removed_header": "64                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 63,
+          "cong_bao_page": 65,
+          "raw_chars": 2254,
+          "clean_chars": 2093,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         65"
+        },
+        {
+          "page": 64,
+          "cong_bao_page": 66,
+          "raw_chars": 1977,
+          "clean_chars": 1776,
+          "removed_header": "66                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 65,
+          "cong_bao_page": 67,
+          "raw_chars": 2186,
+          "clean_chars": 1969,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         67"
+        },
+        {
+          "page": 66,
+          "cong_bao_page": 68,
+          "raw_chars": 2085,
+          "clean_chars": 1874,
+          "removed_header": "68                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 67,
+          "cong_bao_page": 69,
+          "raw_chars": 2348,
+          "clean_chars": 2165,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         69"
+        },
+        {
+          "page": 68,
+          "cong_bao_page": 70,
+          "raw_chars": 2152,
+          "clean_chars": 1979,
+          "removed_header": "70                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 69,
+          "cong_bao_page": 71,
+          "raw_chars": 2348,
+          "clean_chars": 2203,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         71"
+        },
+        {
+          "page": 70,
+          "cong_bao_page": 72,
+          "raw_chars": 2173,
+          "clean_chars": 2051,
+          "removed_header": "72                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 71,
+          "cong_bao_page": 73,
+          "raw_chars": 2490,
+          "clean_chars": 2345,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         73"
+        },
+        {
+          "page": 72,
+          "cong_bao_page": 74,
+          "raw_chars": 2085,
+          "clean_chars": 1814,
+          "removed_header": "74                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 73,
+          "cong_bao_page": 75,
+          "raw_chars": 2373,
+          "clean_chars": 2220,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         75"
+        },
+        {
+          "page": 74,
+          "cong_bao_page": 76,
+          "raw_chars": 2219,
+          "clean_chars": 2093,
+          "removed_header": "76                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 75,
+          "cong_bao_page": 77,
+          "raw_chars": 2270,
+          "clean_chars": 2117,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         77"
+        },
+        {
+          "page": 76,
+          "cong_bao_page": 78,
+          "raw_chars": 2087,
+          "clean_chars": 1889,
+          "removed_header": "78                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 77,
+          "cong_bao_page": 79,
+          "raw_chars": 2294,
+          "clean_chars": 2133,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         79"
+        },
+        {
+          "page": 78,
+          "cong_bao_page": 80,
+          "raw_chars": 2312,
+          "clean_chars": 2202,
+          "removed_header": "80                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 79,
+          "cong_bao_page": 81,
+          "raw_chars": 2131,
+          "clean_chars": 1895,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         81"
+        },
+        {
+          "page": 80,
+          "cong_bao_page": 82,
+          "raw_chars": 2391,
+          "clean_chars": 2281,
+          "removed_header": "82                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 81,
+          "cong_bao_page": 83,
+          "raw_chars": 2167,
+          "clean_chars": 1936,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         83"
+        },
+        {
+          "page": 82,
+          "cong_bao_page": 84,
+          "raw_chars": 2336,
+          "clean_chars": 2234,
+          "removed_header": "84                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 83,
+          "cong_bao_page": 85,
+          "raw_chars": 2036,
+          "clean_chars": 1787,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         85"
+        },
+        {
+          "page": 84,
+          "cong_bao_page": 86,
+          "raw_chars": 2200,
+          "clean_chars": 2070,
+          "removed_header": "86                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 85,
+          "cong_bao_page": 87,
+          "raw_chars": 2199,
+          "clean_chars": 2018,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         87"
+        },
+        {
+          "page": 86,
+          "cong_bao_page": 88,
+          "raw_chars": 2401,
+          "clean_chars": 2271,
+          "removed_header": "88                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 87,
+          "cong_bao_page": 89,
+          "raw_chars": 2257,
+          "clean_chars": 2045,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         89"
+        },
+        {
+          "page": 88,
+          "cong_bao_page": 90,
+          "raw_chars": 1829,
+          "clean_chars": 1607,
+          "removed_header": "90                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 89,
+          "cong_bao_page": 91,
+          "raw_chars": 2220,
+          "clean_chars": 2006,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         91"
+        },
+        {
+          "page": 90,
+          "cong_bao_page": 92,
+          "raw_chars": 2301,
+          "clean_chars": 2195,
+          "removed_header": "92                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 91,
+          "cong_bao_page": 93,
+          "raw_chars": 2372,
+          "clean_chars": 2209,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         93"
+        },
+        {
+          "page": 92,
+          "cong_bao_page": 94,
+          "raw_chars": 2419,
+          "clean_chars": 2305,
+          "removed_header": "94                         CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019"
+        },
+        {
+          "page": 93,
+          "cong_bao_page": 95,
+          "raw_chars": 1186,
+          "clean_chars": 955,
+          "removed_header": "CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019                         95"
+        },
+        {
+          "page": 94,
+          "cong_bao_page": null,
+          "raw_chars": 0,
+          "clean_chars": 0,
+          "removed_header": null
+        }
+      ]
+    }
+  ]
+}
