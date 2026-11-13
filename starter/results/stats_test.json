@@ -1,0 +1,115 @@
+{
+  "run_started_utc": "2026-11-13T16:48:04+00:00",
+  "split": "test",
+  "corpus": [
+    "blld-2019"
+  ],
+  "content_pages": 93,
+  "seconds_load_corpus": 4.17,
+  "embedding": {
+    "provider": "local sentence-transformers",
+    "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "dimensions": 384,
+    "max_seq_length": 128,
+    "normalize": true,
+    "query_document_handling": "same encoder, no prefixes",
+    "seconds_load_model": 8.48,
+    "sentence_transformers": "6.3.0",
+    "torch": "2.15.0+cpu",
+    "transformers": "5.22.2"
+  },
+  "vector_store": {
+    "backend": "PostgreSQL 16 + pgvector 0.8.7 (docker pgvector/pgvector:0.8.7-pg16)",
+    "table": "chunks",
+    "metric": "cosine (<=>)",
+    "search": "exact (no ANN index)"
+  },
+  "strategies": {
+    "A": {
+      "index": "A",
+      "use_filter": false,
+      "desc": "Fixed 500 chars / overlap 50, no filter"
+    },
+    "B": {
+      "index": "B",
+      "use_filter": false,
+      "desc": "Paragraph-aware (khoản/điểm), max 500 chars, no filter"
+    },
+    "C": {
+      "index": "B",
+      "use_filter": true,
+      "desc": "Same chunks as B + filter `chuong` when the question has one"
+    }
+  },
+  "indexes": {
+    "A": {
+      "chunker": "fixed_size",
+      "params": {
+        "size": 500,
+        "overlap": 50
+      },
+      "chunks": 457,
+      "chars_total": 207149,
+      "chars_min": 54,
+      "chars_p10": 245,
+      "chars_median": 500,
+      "chars_p90": 500,
+      "chars_max": 500,
+      "tokens_total": 53977,
+      "tokens_max": 162,
+      "chunks_truncated_by_model": 202,
+      "chunks_under_60_chars": 3,
+      "chunks_spanning_multiple_dieu": 188,
+      "seconds_chunk": 0.01,
+      "seconds_embed": 12.4,
+      "seconds_upsert": 0.12,
+      "seconds_index_total": 12.54,
+      "first_upsert": {
+        "upserted": 457,
+        "deleted_obsolete": 0
+      },
+      "reingest_upsert": {
+        "upserted": 457,
+        "deleted_obsolete": 0
+      },
+      "rows_after_first": 457,
+      "rows_after_reingest": 457,
+      "cost_usd": 0.0
+    },
+    "B": {
+      "chunker": "by_paragraph",
+      "params": {
+        "max_size": 500
+      },
+      "chunks": 574,
+      "chars_total": 188612,
+      "chars_min": 7,
+      "chars_p10": 154,
+      "chars_median": 353.5,
+      "chars_p90": 476,
+      "chars_max": 500,
+      "tokens_total": 49233,
+      "tokens_max": 149,
+      "chunks_truncated_by_model": 26,
+      "chunks_under_60_chars": 8,
+      "chunks_spanning_multiple_dieu": 0,
+      "seconds_chunk": 0.01,
+      "seconds_embed": 11.62,
+      "seconds_upsert": 0.15,
+      "seconds_index_total": 11.78,
+      "first_upsert": {
+        "upserted": 574,
+        "deleted_obsolete": 0
+      },
+      "reingest_upsert": {
+        "upserted": 574,
+        "deleted_obsolete": 0
+      },
+      "rows_after_first": 574,
+      "rows_after_reingest": 574,
+      "cost_usd": 0.0
+    }
+  },
+  "top_k": 3,
+  "cost_usd_total": 0.0
+}

@@ -1,0 +1,66 @@
+{
+  "A/dev": {
+    "strategy": "A",
+    "split": "dev",
+    "N": 15,
+    "hit1": 5,
+    "hit1_str": "5/15",
+    "hit1_rate": 0.333,
+    "hit3": 9,
+    "hit3_str": "9/15",
+    "hit3_rate": 0.6,
+    "filter_questions": 2,
+    "filter_hit3_str": "1/2",
+    "missed": [
+      "d03",
+      "d04",
+      "d06",
+      "d07",
+      "d10",
+      "d14"
+    ],
+    "filter_compliance_str": "N/A",
+    "mean_latency_ms": 19.2
+  },
+  "B/dev": {
+    "strategy": "B",
+    "split": "dev",
+    "N": 15,
+    "hit1": 7,
+    "hit1_str": "7/15",
+    "hit1_rate": 0.467,
+    "hit3": 11,
+    "hit3_str": "11/15",
+    "hit3_rate": 0.733,
+    "filter_questions": 2,
+    "filter_hit3_str": "1/2",
+    "missed": [
+      "d06",
+      "d07",
+      "d08",
+      "d13"
+    ],
+    "filter_compliance_str": "N/A",
+    "mean_latency_ms": 18.9
+  },
+  "C/dev": {
+    "strategy": "C",
+    "split": "dev",
+    "N": 15,
+    "hit1": 8,
+    "hit1_str": "8/15",
+    "hit1_rate": 0.533,
+    "hit3": 12,
+    "hit3_str": "12/15",
+    "hit3_rate": 0.8,
+    "filter_questions": 2,
+    "filter_hit3_str": "2/2",
+    "missed": [
+      "d06",
+      "d07",
+      "d08"
+    ],
+    "filter_compliance_str": "2/2",
+    "mean_latency_ms": 22.5
+  }
+}

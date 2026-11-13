@@ -1,0 +1,4 @@
+﻿strategy,split,N,hit1,hit1_str,hit1_rate,hit3,hit3_str,hit3_rate,filter_questions,filter_hit3_str,filter_compliance_str,mean_latency_ms,missed
+A,dev,15,5,5/15,0.333,9,9/15,0.6,2,1/2,N/A,19.2,d03 d04 d06 d07 d10 d14
+B,dev,15,7,7/15,0.467,11,11/15,0.733,2,1/2,N/A,18.9,d06 d07 d08 d13
+C,dev,15,8,8/15,0.533,12,12/15,0.8,2,2/2,2/2,22.5,d06 d07 d08
